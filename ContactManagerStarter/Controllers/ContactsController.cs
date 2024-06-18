@@ -111,6 +111,7 @@ namespace ContactManager.Controllers
             {
                 contact.EmailAddresses.Add(new EmailAddress
                 {
+                    Priority = email.Priority,
                     Type = email.Type,
                     Email = email.Email,
                     Contact = contact
